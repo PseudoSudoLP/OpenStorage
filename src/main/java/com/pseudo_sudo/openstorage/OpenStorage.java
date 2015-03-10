@@ -12,6 +12,9 @@ public class OpenStorage {
 
     private ConfigurationController configurationController;
 
+    @Mod.Instance(OpenStorage.ID)
+    public static OpenStorage instance;
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         this.configurationController = new ConfigurationController(event.getSuggestedConfigurationFile());
