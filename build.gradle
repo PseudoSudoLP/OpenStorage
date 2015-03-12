@@ -18,7 +18,7 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.7.10-0.1"
-group= "com.pseudosudo.openstorage" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group= "com.pseudo_sudo.OpenStorage" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "OpenStorage"
 
 minecraft {
