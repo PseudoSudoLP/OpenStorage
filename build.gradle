@@ -26,7 +26,13 @@ minecraft {
     runDir = "eclipse"
 }
 
+repositories {
+    maven { url = "http://maven.cil.li/" }
+}
+
 dependencies {
+    compile "li.cil.oc:OpenComputers:MC1.7.10-1.5.+:api"
+    
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
