@@ -12,8 +12,8 @@ public class Name {
             this.blockName = blockName;
         }
 
-        public String getQualifiedBlockName() {
-            return OpenStorage.ID_LOWER + ':' + this.blockName;
+        public String getBlockName() {
+            return this.blockName;
         }
     }
 }
