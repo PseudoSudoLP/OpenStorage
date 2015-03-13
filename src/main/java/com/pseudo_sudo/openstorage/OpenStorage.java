@@ -1,6 +1,7 @@
 package com.pseudo_sudo.openstorage;
 
 import com.pseudo_sudo.openstorage.configuration.ConfigurationController;
+import com.pseudo_sudo.openstorage.init.ModBlocks;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
@@ -19,5 +20,7 @@ public class OpenStorage {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         this.configurationController = new ConfigurationController(event.getSuggestedConfigurationFile());
+
+        ModBlocks.init();
     }
 }
