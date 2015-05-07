@@ -9,6 +9,6 @@ public class ModBlocks {
     private static final Block blockNAS = new BlockNAS();
 
     public static void init() {
-        GameRegistry.registerBlock(blockNAS, Name.Blocks.NAS.getUnlocalizedName());
+        GameRegistry.registerBlock(blockNAS, Name.Blocks.NAS.getBlockName());
     }
 }
