@@ -2,8 +2,8 @@ package com.pseudo_sudo.openstorage;
 
 import com.pseudo_sudo.openstorage.configuration.ConfigurationController;
 import com.pseudo_sudo.openstorage.init.ModBlocks;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid=OpenStorage.ID, name=OpenStorage.NAME, version=OpenStorage.VERSION)
 public class OpenStorage {

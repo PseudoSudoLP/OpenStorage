@@ -15,5 +15,9 @@ public class Name {
         public String getBlockName() {
             return this.blockName;
         }
+
+        public String getUnlocalizedName() {
+            return OpenStorage.ID_LOWER + "." + this.getBlockName();
+        }
     }
 }

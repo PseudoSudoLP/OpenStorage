@@ -6,6 +6,6 @@ public class BlockNAS extends BlockOpenStorage {
     public BlockNAS() {
         super();
 
-        this.setBlockName(Name.Blocks.NAS.getBlockName());
+        this.setUnlocalizedName(Name.Blocks.NAS.getUnlocalizedName());
     }
 }
