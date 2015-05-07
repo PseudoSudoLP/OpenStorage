@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-0.1"
+version = "1.8-0.1"
 group= "com.pseudo_sudo.OpenStorage" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "OpenStorage"
 
 minecraft {
-    version = "1.7.10-10.13.2.1236"
+    version = "1.8-11.14.1.1334"
     runDir = "eclipse"
 }
 
@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    compile "li.cil.oc:OpenComputers:MC1.7.10-1.5.+:api"
+    compile "li.cil.oc:OpenComputers:MC1.8-1.5.+:api"
     
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
